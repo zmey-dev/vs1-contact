@@ -1,0 +1,62 @@
+body {
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+.header-title {
+  color: black;
+}
+
+.header-arrow path {
+  fill: black;
+}
+
+.header-title:hover {
+  color: #00a3d3ba;
+}
+
+.header-arrow:hover path {
+  fill: #00a3d3ba;
+}
+
+.header-button {
+  color: white;
+}
+
+.header-button:hover {
+  color: #00a3d3ba;
+}
+
+.dropdown-menu {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  opacity: 1;
+  transition: opacity 1.3s ease;
+}
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust width */
+}
+
+/* Scrollbar track (background) */
+::-webkit-scrollbar-track {
+  background: #f8f9fa; /* Light background */
+  border-radius: 10px;
+}
+
+/* Scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #007bff; /* Bootstrap primary color */
+  border-radius: 10px;
+}
+
+/* Scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0056b3; /* Darker blue */
+}
