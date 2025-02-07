@@ -693,112 +693,122 @@ export default function ContactForm() {
 
             {/* Contact Cards Column */}
             <div className="col-lg-4">
-              <div
-                className="contact-card d-flex flex-column d-justify-content-center align-items-center mt-5 p-3"
-                style={{
-                  backgroundColor: "#f2f2f2",
-                  border: "1px solid #00a3d3",
-                  boxShadow: "0 4px 7px 4px #a6a6a6",
-                  borderRadius: "15px 50px",
-                }}
-              >
-                <h3 className="h3 mb-3">Direct Contacts</h3>
-                <p className="text-muted small">
-                  Call or Schedule a video conference
-                </p>
-                <div className="">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="#1497e0"
-                      d="m16.556 12.906l-.455.453s-1.083 1.076-4.038-1.862s-1.872-4.014-1.872-4.014l.286-.286c.707-.702.774-1.83.157-2.654L9.374 2.86C8.61 1.84 7.135 1.705 6.26 2.575l-1.57 1.56c-.433.432-.723.99-.688 1.61c.09 1.587.808 5 4.812 8.982c4.247 4.222 8.232 4.39 9.861 4.238c.516-.048.964-.31 1.325-.67l1.42-1.412c.96-.953.69-2.588-.538-3.255l-1.91-1.039c-.806-.437-1.787-.309-2.417.317"
-                    />
-                  </svg>
-                  <a
-                    href="tel:+18665579903"
-                    className="text-decoration-none"
-                    style={{ color: "#00a3d3" }}
-                  >
-                    +1 866 557 9903
-                  </a>
+              <a href="tel:+18665579903" className="text-decoration-none">
+                <div
+                  className="contact-card d-flex flex-column d-justify-content-center align-items-center mt-5 p-3"
+                  style={{
+                    backgroundColor: "#f2f2f2",
+                    border: "1px solid #00a3d3",
+                    boxShadow: "0 4px 7px 4px #a6a6a6",
+                    borderRadius: "15px 50px",
+                  }}
+                >
+                  <h3 className="h3 mb-3">Direct Contacts</h3>
+                  <p className="text-muted small">
+                    Call or Schedule a video conference
+                  </p>
+                  <div className="">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="#1497e0"
+                        d="m16.556 12.906l-.455.453s-1.083 1.076-4.038-1.862s-1.872-4.014-1.872-4.014l.286-.286c.707-.702.774-1.83.157-2.654L9.374 2.86C8.61 1.84 7.135 1.705 6.26 2.575l-1.57 1.56c-.433.432-.723.99-.688 1.61c.09 1.587.808 5 4.812 8.982c4.247 4.222 8.232 4.39 9.861 4.238c.516-.048.964-.31 1.325-.67l1.42-1.412c.96-.953.69-2.588-.538-3.255l-1.91-1.039c-.806-.437-1.787-.309-2.417.317"
+                      />
+                    </svg>
+                    <a
+                      href="tel:+18665579903"
+                      className="text-decoration-none"
+                      style={{ color: "#00a3d3" }}
+                    >
+                      +1 866 557 9903
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <div
-                className="contact-card d-flex flex-column d-justify-content-center align-items-center mt-4 p-3"
-                style={{
-                  backgroundColor: "#f2f2f2",
-                  border: "1px solid #00a3d3",
-                  boxShadow: "0 4px 7px 4px #a6a6a6",
-                  borderRadius: "15px 50px",
-                }}
-              >
-                <h3 className="h3 mb-2">Meet an Expert</h3>
-                <img src="images/contact/handshake.png" loading="lazy" />
-                <p
-                  className="small m-0 text-600"
-                  style={{ fontSize: "14px", color: "#00a3d3" }}
+              </a>
+              <a href="/" className="text-decoration-none">
+                <div
+                  className="contact-card d-flex flex-column d-justify-content-center align-items-center mt-4 p-3"
+                  style={{
+                    backgroundColor: "#f2f2f2",
+                    border: "1px solid #00a3d3",
+                    boxShadow: "0 4px 7px 4px #a6a6a6",
+                    borderRadius: "15px 50px",
+                  }}
                 >
-                  To assess your project &amp; get a tailored Demo
-                </p>
-              </div>
-              <div
-                className="contact-card d-flex flex-column d-justify-content-center align-items-center mt-4 p-3"
-                style={{
-                  backgroundColor: "#f2f2f2",
-                  border: "1px solid #00a3d3",
-                  boxShadow: "0 4px 7px 4px #a6a6a6",
-                  borderRadius: "15px 50px",
-                }}
-              >
-                <h3 className="h3 mb-2">Become a Partner</h3>
-                <img src="images/contact/partner.png" loading="lazy" />
-                <p
-                  className="small m-0 text-600"
-                  style={{ fontSize: "14px", color: "#00a3d3" }}
+                  <h3 className="h3 mb-2">Meet an Expert</h3>
+                  <img src="images/contact/handshake.png" loading="lazy" />
+                  <p
+                    className="small m-0 text-600"
+                    style={{ fontSize: "14px", color: "#00a3d3" }}
+                  >
+                    To assess your project &amp; get a tailored Demo
+                  </p>
+                </div>
+              </a>
+              <a href="/" className="text-decoration-none">
+                <div
+                  className="contact-card d-flex flex-column d-justify-content-center align-items-center mt-4 p-3"
+                  style={{
+                    backgroundColor: "#f2f2f2",
+                    border: "1px solid #00a3d3",
+                    boxShadow: "0 4px 7px 4px #a6a6a6",
+                    borderRadius: "15px 50px",
+                  }}
                 >
-                  Appointment with a partner manager
-                </p>
-              </div>
-              <div
-                className="contact-card d-flex flex-column d-justify-content-center align-items-center mt-4 p-3"
-                style={{
-                  backgroundColor: "#f2f2f2",
-                  border: "1px solid #00a3d3",
-                  boxShadow: "0 4px 7px 4px #a6a6a6",
-                  borderRadius: "15px 50px",
-                }}
-              >
-                <h3 className="h3 mb-2">Find a VS1 Partner</h3>
-                <img src="images/contact/support.png" loading="lazy" />
-                <p
-                  className="small m-0 text-600"
-                  style={{ fontSize: "14px", color: "#00a3d3" }}
+                  <h3 className="h3 mb-2">Become a Partner</h3>
+                  <img src="images/contact/partner.png" loading="lazy" />
+                  <p
+                    className="small m-0 text-600"
+                    style={{ fontSize: "14px", color: "#00a3d3" }}
+                  >
+                    Appointment with a partner manager
+                  </p>
+                </div>
+              </a>
+              <a href="/" className="text-decoration-none">
+                <div
+                  className="contact-card d-flex flex-column d-justify-content-center align-items-center mt-4 p-3"
+                  style={{
+                    backgroundColor: "#f2f2f2",
+                    border: "1px solid #00a3d3",
+                    boxShadow: "0 4px 7px 4px #a6a6a6",
+                    borderRadius: "15px 50px",
+                  }}
                 >
-                  To discuss your unique software and business needs
-                </p>
-              </div>
-              <div
-                className="contact-card d-flex flex-column d-justify-content-center align-items-center mt-4 p-3"
-                style={{
-                  backgroundColor: "#f2f2f2",
-                  border: "1px solid #00a3d3",
-                  boxShadow: "0 4px 7px 4px #a6a6a6",
-                  borderRadius: "15px 50px",
-                }}
-              >
-                <h3 className="h3 mb-2">Support Requests</h3>
-                <img src="images/contact/support.png" loading="lazy" />
-                <p
-                  className="small m-0 text-600"
-                  style={{ fontSize: "14px", color: "#00a3d3" }}
+                  <h3 className="h3 mb-2">Find a VS1 Partner</h3>
+                  <img src="images/contact/support.png" loading="lazy" />
+                  <p
+                    className="small m-0 text-600"
+                    style={{ fontSize: "14px", color: "#00a3d3" }}
+                  >
+                    To discuss your unique software and business needs
+                  </p>
+                </div>
+              </a>
+              <a href="/" className="text-decoration-none">
+                <div
+                  className="contact-card d-flex flex-column d-justify-content-center align-items-center mt-4 p-3"
+                  style={{
+                    backgroundColor: "#f2f2f2",
+                    border: "1px solid #00a3d3",
+                    boxShadow: "0 4px 7px 4px #a6a6a6",
+                    borderRadius: "15px 50px",
+                  }}
                 >
-                  Need help? Have a question?
-                </p>
-              </div>
+                  <h3 className="h3 mb-2">Support Requests</h3>
+                  <img src="images/contact/support.png" loading="lazy" />
+                  <p
+                    className="small m-0 text-600"
+                    style={{ fontSize: "14px", color: "#00a3d3" }}
+                  >
+                    Need help? Have a question?
+                  </p>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -990,9 +1000,17 @@ export default function ContactForm() {
           >
             Company
           </h2>
-          <div>About</div>
-          <div>Contact</div>
-          <div>License Agreement</div>
+          <a href="#" className="text-decoration-none">
+            About
+          </a>
+          <br />
+          <a href="#" className="text-decoration-none">
+            Contact
+          </a>
+          <br />
+          <a href="#" className="text-decoration-none">
+            License Agreement
+          </a>
         </div>
         <div style={{ height: "150px" }}>
           <h2
@@ -1004,8 +1022,13 @@ export default function ContactForm() {
           >
             Product
           </h2>
-          <div>Modules</div>
-          <div>Reporting & Analytics</div>
+          <a href="#" className="text-decoration-none">
+            Modules
+          </a>
+          <br />
+          <a href="#" className="text-decoration-none">
+            Reporting & Analytics
+          </a>
         </div>
         <div style={{ height: "150px" }}>
           <h2
@@ -1017,55 +1040,74 @@ export default function ContactForm() {
           >
             Resources
           </h2>
-          <div>Apps</div>
-          <div>Blog</div>
-          <div>EDI</div>
-          <div>Find a Partner</div>
+          <a href="#" className="text-decoration-none">
+            Apps
+          </a>
+          <br />
+          <a href="#" className="text-decoration-none">
+            Blog
+          </a>
+          <br />
+          <a href="#" className="text-decoration-none">
+            EDI
+          </a>
+          <br />
+          <a href="#" className="text-decoration-none">
+            Find a Partner
+          </a>
         </div>
         <div style={{ height: "150px" }}>
           <img src="images/VS1logo.png" alt="VS1 Logo" width="200" />
           <div className="py-4">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-            >
-              <path
-                fill="#000"
-                d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95"
-              />
-            </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-            >
-              <path
-                fill="#000"
-                d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"
-              />
-            </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-            >
-              <g
-                fill="none"
-                stroke="#000"
-                strokeLinejoin="round"
-                strokeWidth="2"
+            <a href="https://www.facebook.com/VS1Cloud">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
               >
                 <path
-                  strokeLinecap="round"
-                  d="M2 6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"
+                  fill="#000"
+                  d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95"
                 />
-                <path d="m2 8l7.501 6.001a4 4 0 0 0 4.998 0L22 8" />
-              </g>
-            </svg>
+              </svg>
+            </a>
+
+            <a href="https://www.instagram.com/vs1_cloud/">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#000"
+                  d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"
+                />
+              </svg>
+            </a>
+
+            <a href="mailto:info@vs1cloud.com">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <g
+                  fill="none"
+                  stroke="#000"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                >
+                  <path
+                    strokeLinecap="round"
+                    d="M2 6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"
+                  />
+                  <path d="m2 8l7.501 6.001a4 4 0 0 0 4.998 0L22 8" />
+                </g>
+              </svg>
+            </a>
           </div>
 
           <div>© VS1 Cloud. 2020. All rights reserved.</div>
